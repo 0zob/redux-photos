@@ -1,0 +1,5 @@
+.photos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(80%/1, max(350px, 80%/6)), 1fr));
+    gap: 1.5rem;
+}

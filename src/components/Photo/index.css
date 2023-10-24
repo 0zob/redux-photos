@@ -1,0 +1,29 @@
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #eee;
+}
+
+.user-row-container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.user-icon {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.photo-bottom {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-top: 10px;
+}
+
+.photo-title {
+    height: 1fr;
+}
