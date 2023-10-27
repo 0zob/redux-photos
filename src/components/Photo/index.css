@@ -1,6 +1,6 @@
 .photo-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 80px auto auto;
     border-radius: 15px;
     background-color: #eee;
 }
@@ -9,6 +9,7 @@
     display: flex;
     gap: 1em;
     align-items: center;
+    padding-left: 1em;
 }
 
 .user-icon {
@@ -17,13 +18,18 @@
     border-radius: 50%;
 }
 
+.photo-image {
+    width: 100%;
+}
 .photo-bottom {
     display: flex;
     align-items: center;
     gap: 1em;
-    padding-top: 10px;
+    padding-top: 1px;
+    padding-left: 0.5em;
 }
 
 .photo-title {
-    height: 1fr;
+    align-self: end;
+    padding-left: 0.5em;
 }
