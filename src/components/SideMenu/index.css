@@ -1,0 +1,28 @@
+aside {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    width: 212px;
+    padding: 2.5rem 0.5rem 0;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    background: rgb(237, 246, 250);
+}
+
+.aside__logo {
+    width: 150px;
+    justify-self: center
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+}
+.link-list__tab-button {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 16px;
+}

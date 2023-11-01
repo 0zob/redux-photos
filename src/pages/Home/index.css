@@ -1,6 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    min-height: 100vh;
+}
 .photos-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(80%/1, max(350px, 80%/6)), 1fr));
+    grid-template-rows: max-content;
     gap: 1rem;
     padding: 10px;
 }
