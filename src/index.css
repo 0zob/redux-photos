@@ -2,3 +2,13 @@ body {
     background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
     margin: 0;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background: none;
+    border: none;
+}
